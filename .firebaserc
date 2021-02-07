@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "chat-app-9ce7a": {
+      "hosting": {
+        "chat": [
+          "chat-app-9ce7a"
+        ]
+      }
+    }
+  }
+}

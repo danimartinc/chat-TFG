@@ -28,7 +28,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/app/styles/styles.scss"
             ],
             "scripts": []
           },
@@ -121,8 +121,16 @@
               "devServerTarget": "chat:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "chat"
+    }
+  },
+  "defaultProject": "chat",
+  "cli": {
+    "analytics": false
+  }
 }
